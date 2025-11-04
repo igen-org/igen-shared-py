@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = [{ name = "gvalves", email = "gustavo.alves@igen.org.br" }]
 readme = "README.md"
-requires-python = ">=3.13"
+requires-python = ">=3.12"
 dependencies = []
 
 [tool.poetry]
