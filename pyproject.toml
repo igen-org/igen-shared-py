@@ -1,17 +1,14 @@
 [project]
-name = "commons"
+name = "igen-shared"
 version = "0.1.0"
 description = ""
-authors = [
-    {name = "gvalves",email = "gustavo.alves@igen.org.br"}
-]
+authors = [{ name = "gvalves", email = "gustavo.alves@igen.org.br" }]
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = [
-]
+dependencies = []
 
 [tool.poetry]
-packages = [{include = "commons", from = "src"}]
+packages = [{ include = "igen", from = "src" }]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
